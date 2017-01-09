@@ -1,145 +1,258 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset="utf-8">
-    <title>Mesolatido</title>
-    <style>
-        html {
-            height: 100%;
-        }
-        div.listed {
-            -webkit-column-count: 3; /* Chrome, Safari, Opera */
-            -moz-column-count: 3; /* Firefox */
-            column-count: 3;
-            height:100px;
-        }
-        div.fixed {
-            position:fixed;
-        }
-        body {
-            min-height: 100vh;
-        }
-        h1{
-            color:#114;
-            text-align:center;
-        }
-        a {
-            color: rgb(32, 93, 158);
-            line-height: 0.4;
-        }
-        code {
-            background-color:#EEE;
-        }
-        #section2{
-            float:top;
-        }
-        
-        #project{
-            text-align:center;
+    <head>
+        <meta charset="utf-8">
+        <title>Kademii Milestone 3 is coming...</title>
+        <style type="text/css">
             
-        }
-        #header {
-            background-color:black;
-            color:white;
-            text-align:center;
-            padding:5px;
-        }
-        #nav {
-            line-height:30px;
-            background-color:rgb(218, 224, 230);
-            width:25%;
-            float:left;
-            padding:10px;
-            height:100vh;
-        }
-        #section {
-            width:65%;
-            float:left;
-            padding:10px; 
-        }
-        
-        #footer {
-            background-color:black;
-            color:white;
-            clear:both;
-            text-align:center;
-            padding:5px; 
-        }
+            body{
+                background: url("https://www.khanacademy.org/computer-programming/generic-bg/5583688496644096/5766466041282560.png");
+                background-size: 200px 200px;
+            }
+            h1{
+                text-align:center;
+                text-shadow: 2px 2px #999;
+            }
+            .centralDiv{
+                margin: auto;
+                width: 90%;
+                text-align:center;
+                
+            }
+            .header{
+                margin: auto;
+                width: 90%;
+                text-align:center;
+                
+            }
+            button{
+                background: url("https://www.khanacademy.org/computer-programming/button-image/6163732621230080/5707702298738688.png");
+                
+                
+            }
+            button:hover {
+                background: url("https://www.khanacademy.org/computer-programming/active-button/5748510081220608/5707702298738688.png");
+                
+            }
+            button:focus {
+                outline: 0;
+                background: url("https://www.khanacademy.org/computer-programming/active-button/5748510081220608/5707702298738688.png");
+                
+            }
+            .button1{
+                background-size: 155px 49px;
+                border: none;
+                height:49px;
+                width:155px;
+                color:black;
+                margin: 15px 0px;
+            }
+            .button1:hover{
+                background-size: 155px 49px;
+            }
+            .button1:focus{
+                background-size: 155px 49px;
+            }
+            .button2{
+                
+                background-size: 155px 80px;
+                border: none;
+                height:80px;
+                width:155px;
+                color:black;
+                margin: -14px 0px;
+                
+            }
+            .button2:focus{
+                background-size: 155px 80px;
+            }
+            .button2:hover {
+                
+                background-size: 155px 80px;
+                border: none;
+                height:80px;
+                width:155px;
+                
+            }
+            .button3{
+                
+                background-size: 103px 60px;
+                border: none;
+                width:103px;
+                height:60px;
+                color:black;
+                margin: 14px 0px;
+                
+            }
+            .button3:hover {
+                background: url("https://www.khanacademy.org/computer-programming/active-button/5748510081220608/5707702298738688.png");
+                background-size: 103px 60px;
+                border: none;
+                width:103px;
+                height:60px;
+                
+            }
+            .button3:focus{
+                background-size: 103px 60px;
+            }
+            .coin{
+                background: url("https://www.khanacademy.org/computer-programming/logo/4711276150325248/5685265389584384.png");
+                background-size: 20px 20px;
+                height:20px;
+                width:20px;
+                border: 0px;
+                margin: -5px 2px;
+                
+            }
         </style>
-        <script src="https://cdn.rawgit.com/Mesolatido/samples/gh-pages/src/js/adapter.js"></script>
     </head>
-    <body >
+    
+    <body>
+    <h1 class="header" style="text-align:center;width:390px"></h1>
+    
+    <div id="centralDiv" class="centralDiv" style="textAlign:center;width:390px">
+    
+    <h1>
+        <img class="coin" src="https://www.kasandbox.org/programming-images/cute/Blank.png">
+        Kademii Shop Channel
+        <img class="coin" src="https://www.kasandbox.org/programming-images/cute/Blank.png">
+        </h1>
+    
+    <br>
+    <button id="btn1" class="button1" type="submit" value="your text" 
+    >How to Use</button> 
+    
+    <button id="btn2" class="button1" type="submit" value="your text" >
+    Redeem Points
+    <img class="coin" src="https://www.kasandbox.org/programming-images/cute/Blank.png" >
+    </button>
+    
+    <br><br>
+    <button id="btn3" class="button2" type="submit" value="your text" 
+    >Shop Catalogue (Buy)</button>
+    
+    <button id="btn4" class="button2" type="submit" value="your text" 
+    >Vendors (Sell)</button>
+    <br><br>
+    <button id="btn5" class="button3" type="submit" value="your text" 
+    >Technical Support</button>
+    <button id="btn6" class="button3" type="submit" value="your text" 
+    >Special Thanks/Credits</button>
+    <button id="btn7" class="button3" type="submit" value="your text" 
+    >About <br> KadeMii</button><br><br>
+    <button id="btn8" class="button1" type="submit" value="your text" 
+    >KadeMii Menu</button><br>
+    
+    </div>
+   
+    <div id="How"></div>
+    <div id="Redeem"></div>
+    <div id="Shop_Catalogue"></div>
+    <div id="Vendors"></div>
+    <div id="Technical"></div>
+    <div id="Special_Thanks"></div>
+    <div id="About"></div>
+    <div id="KadeMii"></div>
+    
+    <p class="subHeader" style="margin: auto; text-align:center;width:390px"></p>
+    <br>
+    <p class="desc" style="margin: auto; text-align:left;width:390px"></p>
+    <div style="text-align:center">
+    <br>
+    <button id="btnback" class="button1" style="margin: auto; text-align:center;">Back</button>
         
-        <div class="content">
-            <div id="header">
-            <h1 style="color:white" >@WhatifyNW's HTML page</h1>
-            <h4></h4>
-            </div>
-            
-            <div id="nav" >
-                <div class="fixed">
-                    <h4>Navigation Pane</h4>
-                    <a href="#section">Introduction</a>
-                    <br>
-                    <a href="#questions">Questions?</a>
-                    <br>
-                    <a href="#feedback">Feedback</a>
-                    <br>
-                </div>
-            </div>
-            
-            <div id="section">
-            <h2>Formatting Tutorial:</h2>            
-            <div class="formatting-tips-container">
-            <div class="formatting-tips-triangle"></div>
-            <div class="formatting-tips-panel">
-                <table >
-                    <tbody><tr class="discussion-guidelines-format-table-header">
-                    <td>
-                        <b>Typing this:</b><br><br>
-                    </td>
-                    <td>
-                        <b>Displays this:</b><br><br>
-                    </td>
-                    </tr>
-                    <tr class="discussion-guidelines-format-table">
-                    <td style="padding:5px">
-                        Accent your posts with *bold* or _italics_ and format `code`
-                        <pre>```if (x &lt; 0) {<br>    return;<br>}```</pre>
-                    </td>
-                    <td>
-                        Accent your posts with <strong>bold</strong> or <i>italics</i> and format <code>code</code>
-                        <pre><code>if (x &lt; 0) {<br>    return;<br>}</code></pre>
-                    </td>
-                    </tr>
-                </tbody></table>
-            </div>
-        </div>
-                        
-                        <h1>Programs by Category (not finished yet)</h1>
-                        <p>
-                            
-                        </p>
-                        
-            </div> 
-            <div id="section2">
-            </div>
-            <div id="footer">
-                <div id="questions">
-                <h2>Questions?</h2>
-                <p>
-                    Feel free to ask anything about these projects in the question section below.
-                    
-                </p>
-                </div>
-                <div id="feedback">
-                <h2>Compliments or Complaints?</h2>
-                <p>
-                    Feel free to post your experience with the programs in Tips and Thanks below.<br> Thank you for your feedback.
-                </p>
-                </div>
-            </div>
-            
-        </div>
+    </div>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    
+    
+    <script type='text/javascript'>
+    
+    function check()
+    {
+        window.location="https://www.khanacademy.org/computer-programming/kademii-milestone-3-is-coming/5884525885325312?qa_expand_key=kaencrypted_395b424b5c6c24390a63c2e9bdcb8628_1ce623109efdd587e5fabb828d5b681095ed069aed4dbd0483d64a60123c264b6cf6b6a0bfb448c4c39feeae08ec558cda446640f919dc114e36c5b656e31a8d7e4e6ea6652cac829613c73ab8839655d58e56c859dac8adf5a6c4385fa5f3a1114fa0cc5f3d8e7f79e4fe4030bc855832d2ec4f316a4154fe6f196b1e951c7c2f6ae4a199a2d20f55697982447ff406cc3ba08a5b51b54a7b3722d1b6461777a3e8cccd7bc5278d9fd560317c19bf15011c0c9d61239d45c7fccd2e7ebd8e0d";
+        
+        return false;
+    }
+    
+    </script>
+    <script>
+         function reset(){
+             $("#centralDiv").hide();
+             $("#How").hide();
+             $("#Redeem").hide();
+             $("#Shop_Catalogue").hide();
+             $("#Vendors").hide();
+             $("#Technical").hide();
+             $("#Special_Thanks").hide();
+             $("#About").hide();
+             $("#KadeMii").hide();
+             $("#btnback").hide();
+             $(".header").html("");
+             $(".desc").html("");
+             $(".subHeader").html("");
+         };
+         reset();
+         $(".header").html("");
+         $("#centralDiv").show();
+         $("#btn1").on("click", function () {
+             reset();
+             $(".header").html("How to use Kademii");
+             $(".desc").html("The Kademii Shop Project is designed to help promote both learning and entertainment in the programming section on Khan.<br><br>As a vendor, you'd have the ability to publish projects and services for \"sale\", which essentially means anything including but not limited to:<br><li>Tutoring <br><li>Games (Kademii Exclusives)</li><li>Tutorials</li><li>Templates</li>");
+             $(".subHeader").html("(and other extreme sports)");
+             $("#How").show();
+             $("#btnback").show();
+         });
+         $("#btn2").on("click", function () {
+            reset();
+            $(".header").html("How to Redeem Points");
+            $(".desc").html("Points are awarded for postive interactions with the Khan Academy Community. As of the current revision, the only interactions covered by this program are the following: <br><li>Project Requests</li><li>Answered Questions or answered Help Requests**</li><br><br>**with positive feedback from the original asker");
+
+             $("#Redeem").show();
+             $("#btnback").show();
+         });
+         $("#btn3").on("click", function () {
+             reset();
+             $(".header").html("Shop Catalogue");
+             $(".subHeader").html("Shop using <img class=\"coin\" src=\"https://www.kasandbox.org/programming-images/cute/Blank.png\"> Coins!");
+
+             $("#Shop_Catalogue").show();
+             $("#btnback").show();
+         });
+         $("#btn4").on("click", function () {
+             reset();
+             $(".header").html("Vendors");
+             $(".subHeader").html("Add your yourself to the Vendor list by registering <a href='http://www.google.com' onclick='return check()'>Here</a>");
+$("#Vendors").show();
+             $("#btnback").show();
+         });
+         $("#btn5").on("click", function () {
+             reset();
+             $("#Technical").show();
+             $("#btnback").show();
+         });
+         $("#btn6").on("click", function () {
+             reset();
+             $("#Special_Thanks").show();
+             $("#btnback").show();
+         });
+         $("#btn7").on("click", function () {
+             reset();
+             $("#About").show();
+             $("#btnback").show();
+         });
+         $("#btn8").on("click", function () {
+             reset();
+             $("#KadeMii").show();
+             $("#btnback").show();
+         });
+         $("#btnback").on("click", function () {
+             reset();
+             $("#centralDiv").show();
+             $("#btnback").hide();
+         });
+    </script>
+    
+    
     </body>
 </html>
